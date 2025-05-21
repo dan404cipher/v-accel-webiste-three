@@ -6,6 +6,7 @@ import {
   RxTwitterLogo,
   RxLinkedinLogo,
 } from "react-icons/rx";
+import { sub } from "three/tsl";
 
 export const SKILL_DATA = [
   {
@@ -260,24 +261,73 @@ export const OTHER_SKILL = [
 export const PROJECTS = [
   {
     title: "Custom Software Development",
+    subheading: "Tailored Solutions for Unique Needs",  
     description:
       "Discover the art of creating tailored software solutions with 'Custom Software Development.' This project highlights my expertise in building innovative, scalable, and efficient applications designed to meet unique client needs. Leveraging modern technologies like Next.js, it showcases a commitment to precision, creativity, and delivering exceptional user experiences.",
-    image: "/projects/project-.png",
-    link: "https://example.com",
+    image: "/projects/project-5.avif",
+    link: "/development",
+    points: [
+      "⚡ Rapid MVP Prototyping",
+      "🌐 Web and Mobile Apps",
+      "🧩 API Integrations & Microservices",
+      "☁️ Cloud-native Development"
+    ]
   },
   {
     title: "AI & ML Solutions",
+    subheading: "Harnessing the Power of Data",
     description:
       "Explore the transformative potential of 'AI & ML Solutions,' a project that showcases my expertise in developing intelligent systems powered by artificial intelligence and machine learning. From predictive analytics to automation, this project highlights innovative solutions designed to solve complex problems and drive efficiency using cutting-edge technologies.",
-    image: "/projects/project-.png",
-    link: "https://example.com",
+    image: "/projects/project-6.jpg",
+    link: "/ai",
+    points: [
+      "🤖 Natural Language Processing",
+      "📊 Predictive Analytics",
+      "🧠 Machine Learning Models",
+      "🔍 Data Analysis & Visualization"
+    ]
   },
   {
     title: "DevOps and Cloud Solutions",
+    subheading: "Streamlining Development and Deployment",                         
     description:
       "Unlock the potential of seamless development and deployment with 'DevOps and Cloud Solutions.' This project demonstrates my expertise in leveraging cloud platforms and DevOps practices to build scalable, reliable, and efficient systems. From CI/CD pipelines to infrastructure automation, it showcases a commitment to optimizing workflows and delivering robust cloud-based solutions.",
-    image: "/projects/project-.png",
-    link: "https://example.com",
+    image: "/projects/project-4.jpg",
+    link: "/devops",
+    points: [
+      "☁️ Cloud Infrastructure Management",
+      "🔄 Continuous Integration & Deployment",
+      "🛠️ Infrastructure as Code",
+      "📈 Monitoring & Performance Optimization"
+    ]
+  },
+  {
+    title: "SaaS Product Development",
+    subheading: "We Transform SaaS Ideas Into Scalable Powerhouses",                         
+    description:
+      "Experience the future of software with 'SaaS Product Development,' a project that showcases my expertise in building scalable, cloud-based applications. From concept to deployment, this project highlights the journey of creating innovative Software as a Service (SaaS) solutions designed to meet diverse business needs.",
+    image: "/projects/project-4.jpg",
+    link: "/saas",
+    points: [
+      "🚀 MVP to Enterprise SaaS Rollout",
+      "🔐 SSO, Subscription, and Payment Integrations",
+      "📊 Analytics and Reporting Dashboards",
+      "🔒 Security and Compliance"
+    ]
+  },
+  {
+    title: "Microservices Architecture and Engineering",
+    subheading: "Building Scalable and Resilient Systems",
+    description:
+      "Dive into the world of 'Microservices Architecture and Engineering,' a project that showcases my expertise in designing and implementing scalable, resilient systems. This project highlights the power of microservices in creating modular applications that can evolve independently. From architecture design to deployment, it emphasizes a commitment to building robust solutions that meet modern business needs.",
+    image: "/projects/project-5.avif",
+    link: "/microservices",
+    points: [
+      "🔧 Microservices Design and Implementation",
+      "🔄 API Gateway and Service Discovery",
+      "📦 Containerization with Docker",
+      "☁️ Cloud Deployment and Management"
+    ]
   },
 ] as const;
 
@@ -354,8 +404,12 @@ export const NAV_LINKS = [
     link: "/services",
   },
   {
-    title: "Our Projects",
-    link: "#projects",
+    title: "Our Works",
+    link: "/works",
+  },
+  {
+    title: "Contact",
+    link: "/contact",
   },
 ] as const;
 

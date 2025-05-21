@@ -1,6 +1,7 @@
 import { ServiceSection } from "@/components/sections/ServiceSection";
 import { ServiceHero } from "@/components/sections/serviceHero";
 import { PROJECTS } from "@/constants";
+import { ContactForm } from "@/components/sections/contact-form";
 
 export default function ServicesPage() {
   return (
@@ -17,8 +18,11 @@ export default function ServicesPage() {
           description={service.description}
           image={service.image}
           link={service.link}
+          points={service.points}
+          subheading={service.subheading}
         />
       ))}
+      <ContactForm/>
       </div>
     </main>
   );

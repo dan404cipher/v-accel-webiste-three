@@ -36,11 +36,11 @@ export const ServiceContent = () => {
       </motion.div>
 
       {/* Content second */}
-      <div className="h-full w-full flex flex-col gap-5 justify-center m-auto text-start">
+      <div className="h-full w-full flex flex-col gap-7 justify-center m-auto text-start ml-15">
 
         <motion.div
           variants={slideInFromLeft(0.5)}
-          className="flex flex-col gap-6 mt-15 pt-25 text-6xl text-bold text-white max-w-[600px] w-auto h-auto"
+          className="flex flex-col gap-7 mt-15 pt-20 text-6xl text-bold text-white max-w-[600px] w-auto h-auto"
         >
           <span>
             Services{" "}

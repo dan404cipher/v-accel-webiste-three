@@ -1,4 +1,3 @@
-import { HeroContent } from "@/components/sub/hero-content";
 import { ServiceContent } from "../sub/service-content";
 
 export const ServiceHero = () => {

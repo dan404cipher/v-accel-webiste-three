@@ -90,7 +90,7 @@ export const HeroContent = () => {
           variants={slideInFromLeft(0.8)}
           className="text-lg text-gray-400 my-5 max-w-[600px]"
         >
-          Chennai's Leading AI Machine Learning Company.
+          Chennai&apos;s Leading AI Machine Learning Company.
         </motion.p>
 
         <motion.a
